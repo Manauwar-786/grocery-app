@@ -15,11 +15,11 @@ import About from './Pages/About'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
 import Login from './Pages/Login'
-import CartCountBadge from './components/CartCountBadge'
 
 const App = () => {
   return (
-    <><main>
+    <>
+    <main>
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>} />
